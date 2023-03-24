@@ -180,7 +180,6 @@ def gameloop():
             if len(snake_2_list) > snake_2_len:
                 del snake_2_list[0]
 
-
             #Snakey collision    
             if snake_1_x < 0 or snake_1_x > W_wd or snake_1_y < 0 or snake_1_y > W_ht:
                 game_Over = True
