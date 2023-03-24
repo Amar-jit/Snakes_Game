@@ -148,7 +148,7 @@ def gameloop():
             snake_2_y += vel_2_y 
 
             #Scoring, length increment, Apple generator        
-            if abs(snake_1_x-apple_x)<18 and abs(snake_1_y-apple_y)<18:
+            if abs(snake_1_x- apple_x)<18 and abs(snake_1_y-apple_y)<18:
                 score_1 += 1
                 snake_1_len += 10
                 apple_x = random.randint(100, W_wd-100)
